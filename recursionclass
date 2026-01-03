@@ -1,0 +1,59 @@
+# num = int(input("Enter a number: "))
+# def factorial(n):
+#     fact = 1
+#     if num <0:
+#         return "Neg nos have no factorial"
+#     for i in range(1, n + 1):
+#         fact *= i
+#     return fact
+# print(factorial(num))
+
+# using recursive function 
+# num = int(input("Enter a number: "))
+# def fact(n):
+#     if num<0:
+#         return f"{num} doesnot have factorial"
+#     elif n==0 or n==1:
+#         return 1
+#     else:
+#         return n* fact(n-1)
+# print(f"Factorial of {num}:",fact(num))
+
+# tail factorial 
+# def tail_fact(n, accumulator=1):
+#     if n<0:
+#         return "Negative number doesnot have factorial"
+#     elif n==0 or n==1:
+#         return accumulator
+#     else:
+#         return tail_fact(n-1, accumulator*n)
+#print(tail_fact(-5))
+#  fibonacci 
+# def fibonacci(n):
+#     # base case 
+#     if n==0:
+#         return 0
+#     elif n==1:
+#         return 1
+    
+#     # Recursive case 
+#     else:
+#         return fibonacci(n-1) +fibonacci(n-2)
+# print(fibonacci(6))
+
+# sum of numbers in a list  
+# def sum_list(lst):
+#     if not lst:
+#         return 0
+#     else:
+#         return lst[0]+sum_list(lst[1:])
+# print(sum_list([1,2,3,4,5]))
+
+
+
+
+
+        
+ 
+
+   
